@@ -15,7 +15,7 @@ import Avatar from './components/Avatar'
 import AddUserToTrip from './pages/AddUserToTrip'
 
 const App = () => {
-  const API_URL = process.env.NODE_ENV === 'production' ? 'fredngo-onthefly-server.up.railway.app' : 'http://localhost:3001'
+  const API_URL = process.env.NODE_ENV === 'production' ? 'https://fredngo-onthefly-server.up.railway.app' : 'http://localhost:3001'
   
   const [trips, setTrips] = useState([]);
   const [user, setUser] = useState([])
